@@ -1,6 +1,6 @@
 {
     "name": "zelda",
-    "description": "zelda is ...",
+    "description": "zelda is a Chrome extension that copies the URL of the current page in various formats",
     "version": "0.1",
     "manifest_version": 2,
     "browser_action": {
