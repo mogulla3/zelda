@@ -12,29 +12,24 @@
     <div id="main">
         <h1>zelda</h1>
         <div id="success-msg">Copied!</div>
-        <table>
-            <tr>
-                <td>PlainText (1line)</td>
-                <td>
-                    <input id="plaintext-input">
-                    <button id="copy-plaintext-btn">copy</button>
-                </td>
-            </tr>
-            <tr>
-                <td>PlainText (with line break)</td>
-                <td>
-                    <textarea id="plaintext-br-input"></textarea>
-                    <button id="copy-plaintext-br-btn">copy</button>
-                </td>
-            </tr>
-            <tr>
-                <td>Markdown</td>
-                <td>
-                    <input id="markdown-input">
-                    <button id="copy-markdown-btn">copy</button>
-                </td>
-            </tr>
-        </table>
+
+        <h3>PlainText (1line)</h3>
+        <div class="format">
+            <input id="plaintext-input" class="input">
+            <button id="copy-plaintext-btn" class="copy-btn">copy</button>
+        </div>
+
+        <h3>PlainText (with line break)</h3>
+        <div class="format">
+            <textarea id="plaintext-br-input" class="input"></textarea>
+            <button id="copy-plaintext-br-btn" class="copy-btn">copy</button>
+        </div>
+
+        <h3>Markdown</h3>
+        <div class="format">
+            <input id="markdown-input" class="input">
+            <button id="copy-markdown-btn" class="copy-btn">copy</button>
+        </div>
     </div>
 </body>
 </html>
